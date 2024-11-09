@@ -1,7 +1,7 @@
 # tests/test_pim.py
 import pytest
-from pages.login_page import LoginPage
-from pages.pim_page import PIMPage
+from login_page import LoginPage
+from pim_page import PIMPage
 
 @pytest.mark.usefixtures("setup")
 class TestPIM:
